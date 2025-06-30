@@ -95,7 +95,7 @@ body {
 
 .download-btn {
   display: inline-block;
-  margin: 1rem 0;
+  margin: 1rem auto 1.5rem;
   padding: 0.6rem 1.2rem;
   background-color: #2e3a59;
   color: white;
@@ -107,6 +107,5 @@ body {
 
 .download-btn:hover {
   background-color: #40517a;
-  margin: 1rem auto 1.5rem;
 }
   
