@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-
-
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Projects | Sean Panditharatna</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Minimal styles for the download card */
+    .project-card{
+      background:#fff;
+      border:1px solid #ddd;
+      border-radius:8px;
+      padding:1.5rem;
+      margin:1.5rem 0;
+      box-shadow:0 2px 4px rgba(0,0,0,0.05);
+    }
+    .download-btn{
+      display:inline-block;
+      margin:0.5rem 0 1rem;
+      padding:0.5rem 1rem;
+      background:#2e3a59;
+      color:#fff;
+      border-radius:4px;
+      font-weight:bold;
+      text-decoration:none;
+    }
+    .download-btn:hover{
+      background:#1e2a45;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>My Projects</h1>
     <p>Some stuff I like to do, ray tracing etc.</p>
   </header>
+
   <nav>
     <ul class="navbar">
       <li><a href="index.html">Home</a></li>
@@ -27,8 +49,14 @@
     <ul>
       <li><strong>Disease Modelling Simulation</strong>: Built in Python to model the spread of disease using first-order differential equations.</li>
       <li><strong>Colchester Roman Circus 3D Model</strong>: Interactive historical model created using 3D design and game development tools.</li>
-      <!-- Add more projects here -->
     </ul>
+    
+    <!-- 3D Engine download card -->
+    <div class="project-card">
+      <h3>3D Engine Prototype (Windows)</h3>
+      <a class="download-btn" href="downloads/3d-engine-release.zip" download>Download .exe</a>
+      <p>so, this is my thing.<em><code>TestApp.exe</code></em></p>
+    </div>
   </section>
 
   <footer>
