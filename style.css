@@ -79,29 +79,31 @@ body {
     text-decoration: underline;
   }
 
-.project-card {
-  background: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 1.5rem;
-  margin: 2rem 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-
 .project-card h3 {
   margin-top: 0;
   color: #2e3a59;
 }
 
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center children horizontally */
+  text-align: center; /* keep text centered */
+}
+
 .download-btn {
-  display: inline-block;
-  margin: 1rem auto 1.5rem;
-  padding: 0.6rem 1.2rem;
-  background-color: #2e3a59;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+  padding: 0.6rem 1.6rem;
+  background: #2e3a59;
+  color: #fff;
   border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
